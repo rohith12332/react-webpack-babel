@@ -1,0 +1,10 @@
+@import "../settings/index.scss";
+
+ul, ol {
+    margin-left: var(--spacing-x);
+    margin-bottom: 0;
+}
+ul {
+    list-style: square outside;
+}
+

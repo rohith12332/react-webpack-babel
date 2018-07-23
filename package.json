@@ -1,0 +1,55 @@
+{
+  "name": "uidoyen-react-webpack-babel",
+  "version": "1.1.0",
+  "description": "React, Webpack, PostCSS and Babel Starter Kit",
+  "main": "index.js",
+  "author": "Hussain",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "webpack --config ./webpack.prod.config.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uidoyen/react-webpack-babel"
+  },
+  "dependencies": {
+    "@material-ui/core": "^1.4.0",
+    "bootstrap": "^4.1.2",
+    "connected-react-router": "^4.3.0",
+    "css-loader": "^0.28.11",
+    "history": "^4.7.2",
+    "lost": "^8.3.0",
+    "postcss-css-variables": "^0.9.0",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-short": "^4.1.0",
+    "precss": "^3.1.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "s": "^0.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "postcss-loader": "^2.1.6",
+    "redux-devtools": "^3.4.1",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "stylelint": "^9.3.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.12.2",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
