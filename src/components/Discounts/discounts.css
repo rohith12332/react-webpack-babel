@@ -1,0 +1,9 @@
+.modal-body .form-group {
+    margin-bottom: 10px!important;
+}
+.discount-radio-wrap .form-group {
+	margin-bottom: 0px!important;
+}
+.hidelabel label{
+	display: none;
+}

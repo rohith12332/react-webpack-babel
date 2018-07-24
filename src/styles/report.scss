@@ -1,0 +1,29 @@
+.reportTable {
+    th{
+        padding: 12px!important;
+    }
+    td{
+        padding: 8px!important;
+
+        input[type="text"]{
+            border: none;
+            background-color:transparent;
+            &:focus{
+                outline: none
+            }
+        }
+    }
+    .tble-actionlinks{
+        width: auto!important;
+        ul li{
+            margin: 0;
+            padding: 0;
+
+            a.icon-edit{
+                font-size: 14px;
+                padding: 3px 6px 2px 6px!important;
+                margin-right: 5px;
+            }
+        }
+    }
+}

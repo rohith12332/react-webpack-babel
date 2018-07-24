@@ -1,0 +1,122 @@
+@import 'typography';
+html, body {
+    height: 100%;
+}
+html {
+    font-size: 100%;
+    line-height: 1.5;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+@media (min-width: 767px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 766px) {
+
+  html {
+    font-size: 85%;
+  }
+}
+body {
+	color: #333;
+    font-size: 0.875em;
+    font-family: $basefontfamily;
+    padding: 0;
+    margin: 0;
+    background-color: #ECF2F8;
+}
+
+::selection {
+    background: #41c97c;
+    color: #FFF;
+    text-shadow: none;
+}
+
+a:active, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+:focus{
+    border: 0;
+}
+
+a{
+    color:#01a0e2;
+}
+.table-info-bot-wrap .col-sm-4{
+	margin-top: 5px;
+}
+.form-bot-butn-wrap{
+    margin: 30px 0;
+}
+
+.form-bot-butn-wrap {
+    @media (min-width:480px) {
+        margin: 30px 0;
+        padding-right: 0;
+    }
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 0;
+}
+
+/* DATA TABLE STYLING */
+.dataTable th{
+    background-color: #202e47;
+    color: white;
+    font-size: 13px;
+}
+
+.tab-content .fade.in{
+    background-color: transparent
+}
+
+.bottom20{
+    margin-bottom:20px;
+}
+
+/*** headings ***/
+
+/* #userroles
+.modal-subhead {
+    font-size: 20px;
+    font-weight: bold;
+
+/********** MODELS ***********/
+
+/*.modal-subhead{
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+} */
+#pdfContainer{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#pdf_Container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#pdfContainer .table{
+    font-size: 14px!important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pdfwraper{
+
+    margin: 0 auto;
+}
+#purchaseOrderTable .modal-dialog{
+    width: 900px;
+}

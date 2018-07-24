@@ -1,0 +1,196 @@
+#businessTable {
+    tfoot{
+        display: none;
+    }
+    td{
+        span{
+            color: #333;
+            font-weight: normal;
+            font-size: 0.875em;
+        }
+    }
+}
+
+a.dt-button{
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #e0e0e0 100%);
+    border: 1px solid #A2CBDD !important;
+}
+a.buttons-pdf:before{
+    font-family: FontAwesome;
+    content: '\f1c1';
+    padding-right: 15px;
+    color: #41c97c;
+}
+
+a.buttons-excel:before{
+    font-family: FontAwesome;
+    content: '\f1c3';
+    padding-right: 15px;
+    color: #41c97c;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f6f7fb;
+}
+.master-table{
+    margin: 10px 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #c7d0d8;
+    border-radius: 5px;
+    min-height: 450px;
+
+    @media (max-width: 768px) {
+        margin: 0px;
+        min-height: 600px;
+    }
+}
+
+
+/********* TABLE GROUP */
+.products-left-list {
+    width: 20%;
+    float: left;
+}
+
+.products-right-table {
+    width: 78%;
+    float: left;
+    margin-left: 2%;
+}
+
+.prodcut-cateory-wrap {
+    margin: 0px 0px 50px 0px;
+}
+
+/** TABLE SEARCH SECTION **/
+#businessTable_filter{
+    input[type='search']{
+        height: 34px;
+        box-shadow: none;
+        background-color: #fff;
+        border: 1px solid #A2CBDD;
+        border-radius: 0;
+        padding: 0 10px;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+
+        &:focus{
+            outline: 0;
+            box-shadow: none;
+            border: 1px solid #0a89c1;
+        }
+    }
+}
+.table-responsive{
+    // border: 0px;
+    overflow-x: auto;
+    @media(min-width: 768px){
+        overflow-x: hidden;
+    }
+
+    .table{
+        @media(max-width: 768px){
+            width: 1080px;
+        }
+    }
+}
+
+.table>thead>tr>th{
+    border-bottom: 0px;
+}
+// #businessTable_filter{
+//     width: 100%;
+// }
+// #businessTable_filter:first-child div {
+//     width: 100%;
+// }
+
+// .dashbord-table .table > tbody > tr > td{
+//     text-align: left;
+// }
+div.dataTables_wrapper div.dataTables_paginate{
+    white-space: normal!important;
+}
+#businessTable_wrapper div:nth-child(3){
+        overflow-x: auto;
+        min-height: .01%;
+        width: 100%;
+
+    @media screen and (max-width:768px) {
+        width: 100%;
+        margin-bottom: 13.5px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #c8d1dd;
+        border-radius: 4px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .table-responsive-sm {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    .table-responsive-sm.table-bordered {
+      border: 0;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .table-responsive-md {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    .table-responsive-md.table-bordered {
+      border: 0;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .table-responsive-lg {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    .table-responsive-lg.table-bordered {
+      border: 0;
+    }
+  }
+
+  @media (max-width: 1199px) {
+    .table-responsive-xl {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    .table-responsive-xl.table-bordered {
+      border: 0;
+    }
+  }
+
+  .table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+
+  .table-responsive.table-bordered {
+    border: 0;
+  }
+
+#poTable td{
+    padding: 0 12px!important
+}

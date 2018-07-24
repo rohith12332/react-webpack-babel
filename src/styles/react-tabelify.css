@@ -1,0 +1,159 @@
+.column-image,
+.syslog .tble-actionlinks,
+.gridRowsContainer .column-id{
+    display: none
+}
+
+.defaultCell.column-id.header-cell {
+    text-align: center;
+}
+.tble-actionlinks {
+    width: 200px;
+    text-align: center;
+
+}
+.tble-actionlinks ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+/*@media (max-width:768px){
+    .tble-actionlinks {
+        width: auto;
+    }
+}*/
+.tble-actionlinks ul li {
+    padding: 4px 2px;
+    display: inline-block;
+}
+.tble-actionlinks ul li a {
+    font-size: 16px;
+    line-height: 18px;
+    background: #707070;
+    padding: 3px 6px;
+    color: #fff;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.tble-actionlinks ul li a.icon-edit {
+    background: #41c97c;
+}
+
+.tble-actionlinks ul li a.icon-delete {
+    background: #e4554d;
+}
+/* .gridParent .smartGridScroll {
+    overflow-x: auto;
+} */
+
+.gridParent .defaultCell{
+    padding: 8px 10px 8px 4px;
+    flex-basis: 0;
+    flex-grow: 1;
+    position: relative;
+    text-align: left;
+    font-size: 1em;
+    word-break: break-word;
+}
+.defaultCell{
+    color: #333;
+}
+.defaultRow.header .defaultCell{
+    color: white;
+}
+@media (max-width:768px){
+    .gridParent .defaultCell.column-id{
+        flex: auto!important;
+    }
+}
+
+.gridParent .defaultHeaderContainer {
+    background-color: #202e47;
+    color: white;
+    padding: 4px 12px;
+}
+
+.gridParent .checkbox-wrapper {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    }
+
+ .gridParent .defaultRow {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gridParent .header {
+    font-weight: bold;
+}
+
+.gridParent .defaultRowContainer {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 4px 12px;
+}
+
+.gridParent .defaultRowContainer:nth-of-type(2n)
+{
+    background-color: #f6f7fb;
+}
+.gridParent .defaultRowContainer:nth-of-type(even){
+    background-color: #f6f7fb;
+}
+
+.gridParent .defaultFooter {
+    padding: 10px;
+    background-color: #ECF2F8;
+    border-bottom: 2px solid #dde7f2;
+}
+
+
+/* .gridParent .pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 8px 20px;
+    border-radius: 4px;
+} */
+
+.gridParent .pull-left {
+    float: left !important;
+}
+
+.gridParent .pull-right {
+    float: right !important;
+}
+
+.gridParent .checkboxContainer{
+        margin: 10px 0px 0px 10px;
+}
+
+.gridParent .grid-search {
+    width: 190px;
+    height: 21px;
+    font-size: 15px;
+    margin: 0 10px 12px 0px;
+    border: 1px solid #ddd;
+    padding: 5px 5px;
+}
+
+/* #invoice .reset-list, #dayparts .reset-list, #discount .reset-list, #electronicpayments .reset-list, #Inventory .reset-list, #menulist .reset-list, #PricingIntervals .reset-list, #printergroup .reset-list, #printers .reset-list, #ProfitCenters .reset-list, #systemLogViewer .reset-list, #taxes .reset-list, #taxgroup .reset-list, #tenderTypes .reset-list, #terminal .reset-list, #user-list .reset-list, #VendorsDetails .reset-list{
+    display: none
+} */
+
+.gridScroll{
+    overflow-x: auto;
+    width: 100%;
+}
+
+.smartGridScroll{
+    width: 100%;
+    min-width: 606px;
+}
+.gridFooter{
+    width: 100%;
+    min-width: 606px;
+}

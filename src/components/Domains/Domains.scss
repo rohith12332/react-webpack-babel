@@ -1,0 +1,72 @@
+.section-grid-item-display {
+  padding-top: 100px;
+  padding-bottom: 40px;
+
+  .tile-pos-product{
+    .link-wrap {
+      background: #fff;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);
+      display: block;
+      text-align: center;
+      margin-bottom: 30px;
+      padding: 70px 20px 30px;
+
+      &:hover{
+        background: #01a0e2;
+      }
+
+    }
+    .tileName {
+      font-size: 16px;
+      padding: 15px 0;
+      color: black;
+    }
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px){
+  .has-no-nav .main__header .am-toggle-left-sidebar,
+  .has-no-nav .main__header .am-toggle-right-sidebar{
+    display: none;
+  }
+}
+
+.has-no-nav .am-top-header .navbar-collapse .am-user-nav>li{
+  border-right: 0px;
+}
+.Restaurant .media{
+  	background-image: url('./Restaurant.png')!important;
+    width: 117px;
+    height: 118px;
+    margin: 0 auto;
+}
+.Liquor .media{
+  	background-image: url('./Liquor.png')!important;
+    width: 117px;
+    height: 118px;
+    margin: 0 auto;
+}
+.Florist .media{
+  	background-image: url('./Florist.png')!important;
+    width: 117px;
+    height: 118px;
+    margin: 0 auto;
+}
+
+.QSR .media{
+  	background-image: url('./QSR.png')!important;
+    width: 117px;
+    height: 118px;
+    margin: 0 auto;
+}
+.Grocery .media{
+  background-image: url('./Grocery & Fruits.png')!important;
+  width: 110px;
+  height: 111px;
+  margin: 0 auto;
+}

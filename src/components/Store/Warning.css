@@ -1,0 +1,7 @@
+.alert.alert-warning.alert-dismissible {
+    padding: 6px 0;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center
+}

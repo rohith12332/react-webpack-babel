@@ -1,0 +1,106 @@
+.allproducts-wrap {
+    background: #ebebeb;
+    border-radius: 4px;
+    padding: 9px 13px;
+    margin-bottom: 16px;
+}
+.allproducts-wrap p {
+	text-align: left;
+	float: left;
+	margin: 0;
+	padding-top: 2px;
+	font-size: 14px;
+}
+.allproducts-wrap span {
+	background: #e4554d;
+	color: #FFF;
+	padding: 3px 12px;
+	border-radius: 20px;
+	float: right;
+}
+.product-group-listing {
+}
+.product-group-listing ul {
+	margin: 0;
+	padding: 0px;
+}
+.product-group-listing ul li {
+	display: block;
+	padding: 8px 13px;
+	border-bottom: 1px solid #F0F0F0;
+	overflow: hidden;
+	font-size: 13px;
+	-ms-transition: all .3s ease 0s;
+	-o-transition: all .3s ease 0s;
+	transition: all .3s ease 0s;
+}
+.product-group-listing ul li .product-grp-title {
+	float: left;
+	margin-top: 3px;
+}
+.product-group-listing ul li .product-grp-action-links {
+	float: right;
+	margin-right: 7px;
+	margin-top: 3px;
+}
+.product-group-listing ul li .product-grp-action-links a {
+	padding: 0px 3px;
+	color: #8894a5;
+}
+.product-group-listing ul li .product-grp-action-links a:hover {
+	color: #212529;
+}
+.product-group-listing ul li .product-grp-count {
+	background: #41c97c;
+	color: #FFF;
+	padding: 3px 12px;
+	border-radius: 20px;
+	float: right;
+}
+.product-group-listing ul li:hover {
+	background: #F0F0F0;
+	cursor: pointer;
+	color: #e4554d;
+}
+.product-group-listing ul li:active, .product-group-listing ul li.product-group-list-active {
+	background: #ebebeb;
+	border-radius: 4px;
+	cursor: default;
+}
+.product-group-container {
+	height: 750px;
+}
+.addproduct-wrap {
+	width: 700px;
+	margin: 0 auto;
+}
+.product-widget-head {
+	font-weight: 700;
+	color: #333;
+	margin-bottom: 10px;
+}
+.previewContainer{
+	width: 100%;
+	min-height: 200px;
+}
+.logoContainer--preview {
+	margin-top: 10px;
+}
+.logoContainer--preview img{
+	width: 100%;
+}
+.repeater .metadata-form-devider:first-child{
+	margin-top: 30px;
+}
+
+.productoptions> div {
+	opacity: 0;
+	visibility: hidden;
+	background-color: white;
+	position: absolute;
+	z-index: 1000;
+	margin-left: auto;
+	margin-right: auto;
+	transition: opacity 0.5s ease-in;
+}
+.productoptions:hover > div { opacity: 1; visibility: visible;}

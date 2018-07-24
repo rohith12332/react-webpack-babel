@@ -1,0 +1,18 @@
+.reportbyTypeContainer .table{
+margin-bottom: 0;
+}
+.tableHeadStyle{
+    background-color: #ffffff;
+}
+.reportbyTypeContainer{
+    font-family: Arial, Helvetica, sans-serif
+}
+.reportbyTypeContainer tbody{
+    background-color: #ffffff
+}
+.reportbyTypeContainer div{
+    background-color: white;
+}
+.reportbyTypeContainer .table-responsive.dashbord-table div {
+    width: 1080px;
+}

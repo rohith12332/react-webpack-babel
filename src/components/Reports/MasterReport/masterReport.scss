@@ -1,0 +1,41 @@
+.masterReport{
+    .input-group-addon {
+        // margin-top: -2px!important;
+
+        @media(max-width: 992px){
+            // margin-top: -3px!important;
+        }
+    }
+
+    .child-table{
+        td{
+            padding: 11px;
+            text-align: left;
+        }
+    }
+    .btn-primary{
+
+        @media(max-width: 1200px){
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+    .btn-default{
+        @media(max-width: 1200px){
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+}
+#paymentSales{
+    thead{
+        &:nth-child(1) th{
+            background-color: #d1d1d1;
+        }
+    }
+    td{
+        padding: 11px;
+        text-align: left;
+        border: 0;
+    }
+}

@@ -1,0 +1,99 @@
+#salesReport {
+	.widget{
+		border-radius: 0;
+		box-shadow: 1px 1px 5px 0 rgba(43,48,59,.2);
+		border: 0;
+		padding: 20px 0 0 0 !important;
+
+		svg{
+    		margin-bottom: -5px;
+		}
+		.widget-head-wrap{
+  			text-align: center;
+
+  			h2{
+			  font-weight: 700;
+			  margin-top: 10px;
+			  margin: 0;
+			  padding: 0;
+			  color: white;
+			}
+			span{
+				color: white;
+			}
+		}
+	}
+	.tab-content {
+	    background: #fff;
+			padding: 20px;
+
+			@media(max-width: 768px){
+					padding: 20px 0 0;
+			}
+	}
+
+
+	.panel{
+		border-radius: 0;
+		margin-bottom: 0;
+	}
+	.panel-primary {
+		border: 0;
+		margin-bottom: 30px;
+
+		.panel-heading {
+			border: 0;
+			border-bottom: 0px;
+			background-color: #C5C9D1;
+			padding: 12px;
+			border-radius: 0;
+
+			span {
+			    margin-top: -9px;
+			    font-size: 13px;
+			    color:rgb(230, 235, 247);
+			}
+		}
+	}
+
+	.panel-title {
+	    margin-top: 0;
+	    margin-bottom: 0;
+	    font-size: 16px;
+	    color: inherit;
+	}
+	.panel-body {
+	   border-bottom-right-radius: 6px;
+	   border-bottom-left-radius: 6px;
+	   padding: 10px;
+	}
+	.colorPink{
+	  background-color: #FF4C4D!important;
+	}
+	.colorYellow{
+	  background-color: #FFB842!important
+	}
+	.colorBlue{
+	  background-color: #00B6F8!important
+	}
+	.colorGreen{
+	  background-color: #50C881!important
+	}
+	.colorPurple{
+	  background-color: #9B479F!important
+	}
+	.fade.in{
+  		background-color: transparent;
+	}
+}
+
+// .ProductGroupChart,
+// .PaymentTypeChart,
+// .myWeeklyChart,
+// .RevenueChart {
+// 	width: 100%!important;
+// 	height: 400px;
+// 	@media(max-width: 768px){
+// 		height: auto;
+// 	}
+// }

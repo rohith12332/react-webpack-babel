@@ -1,0 +1,33 @@
+.am-content {
+	position: relative;
+	left: 0;
+	padding-top: 53px;
+	margin-left: 100px;
+    height: 100%;
+    @media (max-width:768px) {
+        margin-left: 0;
+        padding-top: 96px;
+    }
+}
+
+.am-content-domains{
+    @media (max-width:768px) {
+        margin-left: 0
+    }
+}
+
+.am-animate {
+    .am-content {
+        transition: all .35s ease
+    }
+}
+
+.am-nosidebar-left {
+    .am-content {
+        margin-left: 0
+    }
+}
+
+.main-content {
+    height: 100%;
+}

@@ -1,0 +1,138 @@
+/* hide column */
+#user-list .gridRowsContainer .column-id {
+  display: none!important;
+}
+.griddle-settings-toggle{
+  display: none;
+}
+.role-width{
+  text-align: right!important;
+  width: 0px!important;
+  margin-top: 25px;
+  margin-left: -10px;
+}
+
+.control-label {
+    position: relative !important;
+    display: block !important;
+}
+
+.react-datepicker__current-month
+{
+
+    font-size: 1.4rem !important;
+    padding-bottom: 10px !important;
+}
+
+.react-datepicker__day--keyboard-selected
+ {
+    border-radius: 2.0rem !important;
+    background-color: #2a87d0 !important;
+    color: #fff !important;
+
+}
+.react-datepicker__header
+{
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #ffffff !important;
+
+}
+.react-datepicker__day--selected
+{
+  border-radius: 2.0rem !important;
+}
+.react-datepicker__day:hover
+{
+    border-radius: 2.0rem !important;
+    background-color: #f0f0f0 !important;
+    color:#000000 !important;
+}
+
+
+.griddle-next-button,
+.griddle-previous-button
+{
+    position: relative;
+    line-height: 1.42857143;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 7px 18px;
+    border-radius: 20px;
+    background-color: #d2d7dd;
+    border: 0px;
+    color: #293341;
+    font-size: 11px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.griddle-next-button:hover,
+.griddle-previous-button:hover{
+  background-color: #01a0e2;
+  color: white;
+}
+.griddle-next-button:after{
+  content: "\F0DA";
+  font-family: 'FontAwesome';
+  font-size: 12px;
+  left: 4px;
+  position: relative;
+}
+.griddle-previous-button:before{
+  content: "\f0d9";
+  font-family: 'FontAwesome';
+  font-size: 12px;
+  right: 4px;
+  position: relative;
+}
+th.TableHeader>span>span{
+  content: "\f0dc";
+  font-family: 'FontAwesome';
+  left: 7px;
+  color: #999;
+  font-size: 11px;
+  position: relative;
+}
+.react-datepicker__year-dropdown-container--select
+{
+    display: inline-block !important;
+    margin: 0px 27px !important;
+    margin-left: 35px !important;
+}
+.react-datepicker__header__dropdown .react-datepicker__header__dropdown--select
+{
+  margin-left: 30px !important;
+}
+
+
+.reactDatepicker .react-datepicker__input-container{
+  width: calc(100% - 50px);
+  float: left;
+}
+
+.reactDatepicker .input-group-addon{
+  width: 50px;
+  display:inline-block;
+  font-size: 19px;
+  margin-top: 0;
+}
+.reactDatepicker .input-group-addon>.icon{
+  color: white;
+}
+
+.widget.widget-small
+ {
+    margin-bottom: 5px !important;
+}
+
+.form-bot-butns
+ {
+    text-align: right !important;
+}
+
+.form-group .modal-subhead{
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,77 @@
+.custom-nav-tabs{
+	border-bottom: 1px solid #ddd;
+	margin-left: -20px;
+	margin-top: -20px;
+	margin-right: -20px;
+	margin-bottom: 20px;
+
+	li{
+		display: inline-block;
+		margin-bottom: -1px;
+			a{
+				color: #333;
+				&:focus{
+					background: #fff;
+				}
+			}
+			&.active{
+				background: #fff;
+				border-bottom: 1px solid #FF6B6B;
+			}
+
+	}
+}
+
+.byBusinessDays .nav.nav-tabs{
+	margin-bottom: 30px;
+}
+
+// .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+//     color: #555;
+//     cursor: default;
+// 	background-color: #fff;
+// 	border: none!important;
+// }
+// .nav-tabs>li{
+// 	border: 0px;
+// 	outline: none;
+// }
+// .nav-tabs>li>a{
+// 	border-radius: 0;
+// }
+
+// .nav-tabs{
+// 	border-bottom: 2px solid #ddd;
+// 	margin-left: -20px;
+// 	margin-top: -20px;
+// 	margin-right: -20px;
+// 	margin-bottom: 20px;
+// 	li{
+// 		float: left;
+// 		margin-bottom: -2px;
+// 		a{
+// 			margin-right: 0;
+// 			border-radius: 0;
+// 			padding: 10px 15px;
+// 			border: 1px solid transparent;
+// 		}
+// 		&.active{
+// 			background: #fff;
+// 			border: 1px solid transparent;
+// 			border-bottom: 2px solid #FF6B6B;
+// 			a{
+// 				color: #000;
+// 				border: 0!important;
+// 				border-radius: 0px;
+// 				&:hover{
+// 					text-decoration: none;
+// 					background-color: #eee
+// 				}
+// 			}
+// 		}
+// 		&:focus{
+// 			outline: none;
+// 			border: 0;
+// 		}
+// 	}
+// }

@@ -1,0 +1,17 @@
+.previewContainer{
+	width: 100%;
+	min-height: 100px
+}
+.logoContainer--preview {
+	margin-top: 10px;
+	text-align: center;
+
+}
+.logoContainer--preview img{
+	max-width: 100%;
+	max-height: 280px;
+	margin: 0 auto;
+}
+.rc-time-picker.form-control.bordernull{
+	padding: 6px 0;
+}
