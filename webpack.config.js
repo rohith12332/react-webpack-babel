@@ -82,14 +82,14 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      inject: 'body',
     })
   ],
   devServer: {
-    contentBase: './dist',
+    contentBase: path.join(__dirname, 'dist'),
     inline: true,
-    port: 3000,
-    hot: true
+    historyApiFallback: true,
+    hot: true,
+    port:3000
   },
   devtool: 'source-map'
 }
